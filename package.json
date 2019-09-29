@@ -1,8 +1,18 @@
 {
   "name": "monaco-editor-esm-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The webpack's plugin for monaco editor to compile the worker and handle with localization",
+  "keywords": [
+    "webpack",
+    "monaco",
+    "monaco editor",
+    "localization",
+    "localize",
+    "vscode",
+    "nls"
+  ],
   "main": "index.js",
+  "repository": "git@github.com:wang12124468/monaco-editor-esm-webpack-plugin.git",
   "author": "xiaoyong <454926339@qq.com>",
   "license": "MIT",
   "dependencies": {
