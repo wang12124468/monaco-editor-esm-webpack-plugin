@@ -7,6 +7,8 @@
 
 The webpack's plugin for monaco editor to compile the worker and handle with localization.
 
+![](docs/img/1.png)
+
 ## Installing
 
 `npm install monaco-editor-esm-webpack-plugin --save-dev`
