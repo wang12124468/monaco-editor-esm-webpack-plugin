@@ -52,13 +52,15 @@ The webpack's plugin for monaco editor to compile the worker and handle with loc
 
     ```
     // index.js
-    import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
     import { setLocaleData } from 'monaco-editor-nls';
     import zh_CN from 'monaco-editor-nls/locale/zh-hans';
 
     setLocaleData(zh_CN);
 
-    monaco.editor.create(document.getElementById('container'), { language: 'javascript' });
+    // You must import/require after `setLocaleData`
+    const monaco = require('monaco-editor/esm/vs/editor/editor.api');
+
+    monaco.editor.create(document.getElementById('root'), { language: 'javascript' });
     ```
 
 ## Options
