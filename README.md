@@ -1,5 +1,7 @@
 # monaco-editor-esm-webpack-plugin
 
+[Change log](CHANGELOG.md)
+
 > It dependency on [monaco-editor-webpack-plugin](https://github.com/microsoft/monaco-editor-webpack-plugin).  
 > If you want copy a monaco editor with localization, you can see [primefaces-monaco](https://github.com/blutorange/primefaces-monaco/blob/master/ESM-I18N.md)
 
