@@ -15,8 +15,11 @@
   "repository": "git@github.com:wang12124468/monaco-editor-esm-webpack-plugin.git",
   "author": "xiaoyong <454926339@qq.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "monaco-editor": "<=1.8.1"
+  },
   "dependencies": {
-    "monaco-editor-webpack-plugin": "^1.7.0",
+    "monaco-editor-webpack-plugin": "~1.7.0",
     "webpack": "^4.41.0",
     "monaco-editor-nls": "^1.0.2"
   }

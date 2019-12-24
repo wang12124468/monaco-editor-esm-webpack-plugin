@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.1.0
+
+> 2019-12-24
+
+### Bug Fixes
+
+- Fix the error that can't build monaco editor, which version >= 1.9.0. Now it only use for monaco editor(version <= 1.8.1)
+
 ## 1.0.3
 
 > 2019-12-12
