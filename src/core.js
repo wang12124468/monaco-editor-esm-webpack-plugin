@@ -2,9 +2,12 @@ const MonacoEditorWebapckPlugin = require('monaco-editor-webpack-plugin');
 const NormalModuleWebpackReplacementPlugin = require("webpack/lib/NormalModuleReplacementPlugin");
 const nls = require.resolve('monaco-editor-nls');
 
-function MonacoEditorEsmWebpackPlugin({ isMonacoEditorWebapckPlugin = true, isReplaceNls = true, lng = 'ja', ...options } = {}) {
+function MonacoEditorEsmWebpackPlugin(options) {
+    
+    const { isMonacoEditorWebapckPlugin, isReplaceNls, lng } = Object.assign({ isMonacoEditorWebapckPlugin = true, isReplaceNls = true, lng = null }, options);
+
     if(isMonacoEditorWebapckPlugin) {
-        this.plugin1 = new MonacoEditorWebapckPlugin(options);
+        this.plugin1 = new MonacoEditorWebapckPlugin(opts);
     }
     if(isReplaceNls) {
         this.plugin2 = new NormalModuleWebpackReplacementPlugin(/\/(vscode\-)?nls\.js/, function(resource) {
