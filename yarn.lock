@@ -1326,9 +1326,15 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-monaco-editor-webpack-plugin@^1.7.0:
+monaco-editor-nls@~1.0.2:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/monaco-editor-nls/download/monaco-editor-nls-1.0.4.tgz#010b7cabfa5cca2fe443847484bb23e72eae44d2"
+  integrity sha1-AQt8q/pcyi/kQ4R0hLsj5y6uRNI=
+
+monaco-editor-webpack-plugin@~1.7.0:
   version "1.7.0"
   resolved "https://registry.npm.taobao.org/monaco-editor-webpack-plugin/download/monaco-editor-webpack-plugin-1.7.0.tgz#920cbeecca25f15d70d568a7e11b0ba4daf1ae83"
+  integrity sha1-kgy+7Mol8V1w1Win4RsLpNrxroM=
   dependencies:
     "@types/webpack" "^4.4.19"
 
