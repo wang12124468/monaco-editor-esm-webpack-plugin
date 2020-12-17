@@ -2,47 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/anymatch@*":
-  version "1.3.1"
-  resolved "https://registry.npm.taobao.org/@types/anymatch/download/@types/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
-
-"@types/node@*":
-  version "12.7.8"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.7.8.tgz?cache=0&sync_timestamp=1569453199308&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.7.8.tgz#cb1bf6800238898bc2ff6ffa5702c3cadd350708"
-
-"@types/source-list-map@*":
-  version "0.1.2"
-  resolved "https://registry.npm.taobao.org/@types/source-list-map/download/@types/source-list-map-0.1.2.tgz#0078836063ffaf17412349bba364087e0ac02ec9"
-
-"@types/tapable@*":
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/@types/tapable/download/@types/tapable-1.0.4.tgz#b4ffc7dc97b498c969b360a41eee247f82616370"
-
-"@types/uglify-js@*":
-  version "3.0.4"
-  resolved "https://registry.npm.taobao.org/@types/uglify-js/download/@types/uglify-js-3.0.4.tgz?cache=0&sync_timestamp=1567534690713&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fuglify-js%2Fdownload%2F%40types%2Fuglify-js-3.0.4.tgz#96beae23df6f561862a830b4288a49e86baac082"
-  dependencies:
-    source-map "^0.6.1"
-
-"@types/webpack-sources@*":
-  version "0.1.5"
-  resolved "https://registry.npm.taobao.org/@types/webpack-sources/download/@types/webpack-sources-0.1.5.tgz?cache=0&sync_timestamp=1567534696188&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fwebpack-sources%2Fdownload%2F%40types%2Fwebpack-sources-0.1.5.tgz#be47c10f783d3d6efe1471ff7f042611bd464a92"
-  dependencies:
-    "@types/node" "*"
-    "@types/source-list-map" "*"
-    source-map "^0.6.1"
-
-"@types/webpack@^4.4.19":
-  version "4.39.1"
-  resolved "https://registry.npm.taobao.org/@types/webpack/download/@types/webpack-4.39.1.tgz?cache=0&sync_timestamp=1567534694770&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fwebpack%2Fdownload%2F%40types%2Fwebpack-4.39.1.tgz#d76cd551cc851198f67f75ff3e26551d204530e9"
-  dependencies:
-    "@types/anymatch" "*"
-    "@types/node" "*"
-    "@types/tapable" "*"
-    "@types/uglify-js" "*"
-    "@types/webpack-sources" "*"
-    source-map "^0.6.0"
-
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.npm.taobao.org/@webassemblyjs/ast/download/@webassemblyjs/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -1326,17 +1285,17 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-monaco-editor-nls@~1.0.2:
+monaco-editor-nls@1.x:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/monaco-editor-nls/download/monaco-editor-nls-1.0.4.tgz#010b7cabfa5cca2fe443847484bb23e72eae44d2"
   integrity sha1-AQt8q/pcyi/kQ4R0hLsj5y6uRNI=
 
-monaco-editor-webpack-plugin@~1.7.0:
-  version "1.7.0"
-  resolved "https://registry.npm.taobao.org/monaco-editor-webpack-plugin/download/monaco-editor-webpack-plugin-1.7.0.tgz#920cbeecca25f15d70d568a7e11b0ba4daf1ae83"
-  integrity sha1-kgy+7Mol8V1w1Win4RsLpNrxroM=
+monaco-editor-webpack-plugin@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npm.taobao.org/monaco-editor-webpack-plugin/download/monaco-editor-webpack-plugin-1.8.0.tgz#29078252bd20e82aae2c0716e6834083c49adbc9"
+  integrity sha1-KQeCUr0g6CquLAcW5oNAg8Sa28k=
   dependencies:
-    "@types/webpack" "^4.4.19"
+    loader-utils "^1.2.3"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
