@@ -16,11 +16,11 @@
   "author": "xiaoyong <454926339@qq.com>",
   "license": "MIT",
   "peerDependencies": {
-    "monaco-editor": "<=0.18.1",
+    "monaco-editor": "0.21.*",
     "monaco-editor-nls": "*"
   },
   "dependencies": {
-    "monaco-editor-webpack-plugin": "~1.7.0",
+    "monaco-editor-webpack-plugin": "2.x",
     "webpack": "^4.41.0"
   },
   "devDependencies": {
