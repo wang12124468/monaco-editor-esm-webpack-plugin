@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.0.0
+
+> 2020-01-04
+
+### Feature
+
+- Remove all dependencies to peerDependencies or devDependencies. And now, you should add dependencies in your project and you can match the version of `monaco-editor` with `monaco-editor-webpack-plugin` (such as, `monaco-editor#0.21.*` with `monaco-editor-webpack-plugin#2.*.*`)
+
 ## 1.1.0
 
 > 2019-12-24
