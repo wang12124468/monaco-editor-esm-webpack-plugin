@@ -13,6 +13,8 @@ The webpack's plugin for monaco editor to compile the worker and handle with loc
 
 `npm install monaco-editor-esm-webpack-plugin --save-dev`
 
+`npm install monaco-editor monaco-editor-webpack-plugin monaco-editor-nls`
+
 ## Using
 
 - `webpack.config.js`
@@ -48,10 +50,6 @@ The webpack's plugin for monaco editor to compile the worker and handle with loc
 
 ## Localization
 
-- Install [monaco-editor-nls](https://github.com/wang12124468/monaco-editor-nls)
-
-    `npm install monaco-editor-nls`
-
 - Set the locale data in your code
 
     ```
@@ -78,6 +76,6 @@ There only two options for this plugin. But you can the [monaco-editor-webpack-p
 
 ## Q & A
 
-- Localization is not active ?  
+- Why the project can't start after add the plugin with `monaco-editor` and `monaco-editor-webpack-plugin` ?
 
-    There are may two `monaco-editor-nls`. One is may in `monaco-editor-esm-webpack-plugin/node_modules`, another is may in `node_modules`. You should delete the one in `monaco-editor-esm-webpack-plugin/node_modules` and restart.
+    The version of `monaco-editor` should match with `monaco-editor-webpack-plugin`, you can see: https://github.com/microsoft/monaco-editor-webpack-plugin/#version-matrix
