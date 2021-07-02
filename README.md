@@ -60,6 +60,7 @@ The webpack's plugin for monaco editor to compile the worker and handle with loc
     setLocaleData(zh_CN);
 
     // You must import/require after `setLocaleData`
+    // Do not use `import * as monaco from 'XXX'`, but can use `import('xxx').then(XXX)`
     const monaco = require('monaco-editor/esm/vs/editor/editor.api');
 
     monaco.editor.create(document.getElementById('root'), { language: 'javascript' });
