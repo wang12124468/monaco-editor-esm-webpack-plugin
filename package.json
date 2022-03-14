@@ -20,10 +20,5 @@
     "monaco-editor-nls": "*",
     "monaco-editor-webpack-plugin": "*",
     "webpack": "4.x"
-  },
-  "devDependencies": {
-    "monaco-editor-webpack-plugin": "*",
-    "monaco-editor-nls": "*",
-    "webpack": "4.x"
   }
 }
