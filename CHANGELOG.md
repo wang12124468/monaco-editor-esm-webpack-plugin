@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.0
+
+> 2022-04-21
+
+- Fix the loader error that the worker which had compiled with `nls.js` now in `monaco-editor`
+
 ## 2.0.0
 
 > 2020-01-04
